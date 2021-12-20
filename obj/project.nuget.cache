@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GCieQ9/jgsFVTPNOzZc1Qu20gde1h20DjEZ1lost5Lsm8pGkUjnx4u/C4WURpKiwuvDH7Ljp96w/dyMkVMzb9g==",
+  "success": true,
+  "projectFilePath": "/home/emilia/.local/documents/programming/cs/tiktaktoe2/tiktaktoe2.csproj",
+  "expectedPackageFiles": [
+    "/home/emilia/.cache/NuGetPackages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

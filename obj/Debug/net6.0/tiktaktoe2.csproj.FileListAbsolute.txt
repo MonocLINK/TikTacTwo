@@ -1,0 +1,15 @@
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.csproj.AssemblyReference.cache
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.GeneratedMSBuildEditorConfig.editorconfig
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.AssemblyInfoInputs.cache
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.AssemblyInfo.cs
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.csproj.CoreCompileInputs.cache
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/bin/Debug/net6.0/tiktaktoe2
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/bin/Debug/net6.0/tiktaktoe2.deps.json
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/bin/Debug/net6.0/tiktaktoe2.runtimeconfig.json
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/bin/Debug/net6.0/tiktaktoe2.dll
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/bin/Debug/net6.0/ref/tiktaktoe2.dll
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/bin/Debug/net6.0/tiktaktoe2.pdb
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.dll
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/ref/tiktaktoe2.dll
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.pdb
+/home/emilia/.local/documents/programming/cs/tiktaktoe2/obj/Debug/net6.0/tiktaktoe2.genruntimeconfig.cache
