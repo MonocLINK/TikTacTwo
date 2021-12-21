@@ -38,20 +38,26 @@ public class Player
             // must only be numbers
             loc = Regex.Replace(loc, "[^0-9]", "");
 
-            int[] locInt = ConvertLocToIntArr(loc);
-            if (IsProperLocation(locInt, gamefield))
-                return locInt;
+            // loc must have two numbers
+            if (loc.Length >= 2)
+            {
+                int[] locInt = ConvertLocToIntArr(loc);
+                if (IsProperLocation(locInt, gamefield))
+                    return locInt;
+            }
+
         }
 
         // invalid input
         Error.InputError();
+        gamefield.ShowBoard();
         return GetMoveLocation(gamefield);
     }
     private int[] ConvertLocToIntArr(string loc)
     {
-        // convert loc to int
+        // convert first two numbers of loc to int
         int[] locInt = new int[2];
-        for (int i = 0; i < loc.Length; i++)
+        for (int i = 0; i < locInt.Length; i++)
             locInt[i] = loc[i] - '0';
 
         return locInt;

@@ -1,6 +1,5 @@
 public class Error
 {
-
     public static bool isProperInput(Type inputType, Type properType)
     {
         if (inputType == properType)
