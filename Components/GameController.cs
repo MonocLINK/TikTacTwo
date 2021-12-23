@@ -37,6 +37,14 @@ public class GameController
                 isGamePlaying = false;
             }
 
+            // check for a tie
+            if (CheckTie(gamefield))
+            {
+                gamefield.ShowBoard();
+                GameTied();
+                isGamePlaying = false;
+            }
+
             // next player
             if (currentPlayer < players.Count - 1)
                 currentPlayer++;
@@ -81,5 +89,24 @@ public class GameController
     {
         Console.WriteLine($"\nCongrats {winner.Name}!");
         Console.WriteLine("You won!");
+    }
+
+    private static bool CheckTie(Gamefield gamefield)
+    {
+        // if any row contains an _ game isn't tied
+        foreach (var row in gamefield.Board)
+        {
+            if (row.Contains(" _ "))
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static void GameTied()
+    {
+        Console.WriteLine("\nNo winner");
+        Console.WriteLine("Game tied");
     }
 }
